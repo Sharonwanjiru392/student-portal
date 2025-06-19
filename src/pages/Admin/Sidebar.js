@@ -69,6 +69,8 @@ const Sidebar = () => {
         <nav>
           <ul className="nav-list">
                             <Link to="/admin/view-notifications">My Notifications</Link>
+                            <br/>
+                            <Link to="/admin/AdminAttendance">View Attendance</Link>
             {links.map((link) => (
               <li key={link.to}>
                 <Link

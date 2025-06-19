@@ -11,6 +11,7 @@ import UploadAssignment from './pages/Admin/UploadAssignment';
 import AllSubmissions from './pages/Admin/AllSubmissions'; // Adjust the path if different
 import AdminNotifications from './pages/Admin/AdminNotifications';
 import AdminViewNotifications from './pages/Admin/AdminViewNotifications';
+import AdminAttendance from './pages/Admin/AdminAttendance';
 
 
 // Student pages
@@ -72,9 +73,10 @@ const App = () => {
           }
           />
            <Route path="/admin/submissions" element={<AllSubmissions />} />
-           <Route path="student/notifications" element={<Notifications />} />
+           <Route path="/student/notifications" element={<Notifications/>} />
            <Route path="/admin/notifications" element={<AdminNotifications />} />
             <Route path="/admin/view-notifications" element={<AdminViewNotifications />} />
+            <Route path="/admin/AdminAttendance" element={<AdminAttendance />} />
       </Routes>
     </Router>
   );

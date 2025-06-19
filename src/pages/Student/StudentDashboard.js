@@ -167,7 +167,7 @@ const StudentDashboard = () => {
               <Link to="/student/my-submissions" className="link-plain">
                 View My Submissions
               </Link>
-              <Link to="/notifications" className="text-blue-600 underline">View Notifications</Link>
+              <Link to="/student/notifications">Notifications</Link>
 
               <button onClick={handleLogout} className="dashboard-btn red">
                 Logout
